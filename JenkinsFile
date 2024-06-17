@@ -75,7 +75,7 @@ pipeline {
 				}
 				failure {
 					emailext(
-						to: "thamasha1996@gmail.com",
+						to: "ansh2108u@gmail.com",
 			                        subject: "Integration Tests on Staging Stage: Failure",
 			                        body: "Integration Tests on Staging Stage failed.",
 			                        attachLog: true
